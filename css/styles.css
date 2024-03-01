@@ -35,10 +35,9 @@ font-family: Raleway,sans-serif;
 
 
 }
-.address:hover,
-.address:focus {
+.address{
  font-style: normal;
-color: #404bbf;
+
 
 }
 .contack-link {
@@ -47,6 +46,13 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color:#434455;
 }
+
+.contack-link:hover,
+.contack-link:focus{
+ color: #404bbf
+}
+
+
 .address-link:hover,
 .address-link:focus{
     color:#404BBF;
@@ -55,6 +61,10 @@ color:#434455;
 /* ==================================================================== */
 
 /* ========================HERO======================================== */
+
+.hero {
+    background-color: #2e2f42 
+}
 
 .header {
     font-weight: 700;
@@ -73,6 +83,7 @@ letter-spacing: 0.04em;
 color:#fff;
 background-color: #4d5ae5;
 cursor:pointer;
+font-family: "Roboto", sans-serif;
 }
 .hero-btn:hover,
 .hero-btn:focus{
