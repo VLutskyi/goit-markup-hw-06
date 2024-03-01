@@ -1,5 +1,5 @@
 body {
-    font-family:"roboto",sans-serif;
+    font-family:"Roboto",sans-serif;
     color:#434455;
     background-color:#ffffff;
 }
@@ -35,8 +35,11 @@ font-family: Raleway,sans-serif;
 
 
 }
-.address {
+.address:hover,
+.address:focus {
  font-style: normal;
+color: #404bbf;
+
 }
 .contack-link {
 font-size: 16px;
@@ -60,6 +63,7 @@ line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color:#fff;
+background-color: #2e2f42;
 }
 .hero-btn {
 font-weight: 500;
@@ -80,6 +84,9 @@ cursor:pointer;
 /* ================================================================== */
 /* =========================FEATURES================================= */
 
+.section-features {
+ background-color: #F4F4FD
+}
 .list-features {
 }
 .list-item-features {
@@ -90,6 +97,7 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color:#2e2f42;
+text-transform: capitalize;
 }
 .text-features {
 font-size: 16px;
@@ -165,8 +173,8 @@ text-transform: uppercase;
 color:#4d5ae5;
 font-family: Raleway,sans-serif;
 }
-.logo-part {
-color:#2e2f42;
+.logo-part-footer {
+color: #f4f4fd;
 }
 .footer-caption {
 font-size: 16px;
