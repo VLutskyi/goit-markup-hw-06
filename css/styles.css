@@ -134,9 +134,11 @@ color:#2e2f42;
 text-transform: capitalize;
 }
 
-.list-our-team {
+.list-item-team {
  background-color: #FFFFFF;
 }
+ 
+
 
 .name-team {
 font-weight: 500;
@@ -174,7 +176,6 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color:#2e2f42;
 }
-
 .text-portfolio {
 font-size: 16px;
 line-height: 1.5;
