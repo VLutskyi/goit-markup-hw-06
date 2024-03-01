@@ -36,7 +36,7 @@ font-family: Raleway,sans-serif;
 
 }
 .address {
-    font-style:normal;
+ font-style: normal;
 }
 .contack-link {
 font-size: 16px;
@@ -67,7 +67,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
 color:#fff;
-background: #4d5ae5;
+background-color: #4d5ae5;
 cursor:pointer;
 }
 .hero-btn:hover,
