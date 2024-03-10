@@ -6,6 +6,8 @@ body {
 
 img {
     display: block;
+     max-width: 100%; 
+     height: auto;
 }
 
 h1
@@ -26,7 +28,7 @@ a {
     padding-left: 0;
     text-decoration: none;
 }
-ul,ol {
+ul, ol {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -38,7 +40,7 @@ ul,ol {
     margin: 0 auto;
 }
 
-.header{
+.header {
 border-bottom: 1px solid #E7E9FC;
 }
 .header-container {
@@ -125,12 +127,13 @@ color:#434455;
 /* ========================HERO======================================== */
 
 .hero {
-
+    padding-top: 188px; 
+     padding-bottom: 188px;
    
    
 }
 .hero-wrap {
-    padding: 188px 472px 292px 472px;
+
     background-color: #2e2f42;
     
 
@@ -220,6 +223,8 @@ letter-spacing: 0.02em;
 text-align: center;
 color:#2e2f42;
 text-transform: capitalize;
+max-width: 162px;
+margin: 0 auto;
 }
 
 .list-item-team {
@@ -291,6 +296,9 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color:#4d5ae5;
 font-family: Raleway,sans-serif;
+display: inline-block;
+margin-bottom: 16px;
+
 }
 .logo-part-footer {
 color: #f4f4fd;
