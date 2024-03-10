@@ -7,7 +7,7 @@ body {
 img {
     display: block;
      max-width: 100%; 
-     height: auto;
+   
 }
 
 h1
@@ -80,7 +80,13 @@ text-decoration: none;
 }
 .logo-part {
     color:#2e2f42;
-}
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    }
+
 
 .nav-list {
     flex-direction: column;
@@ -245,6 +251,11 @@ color:#434455;
  background-color: #F4F4FD;
  padding: 120px 0;
 }
+.list-our-team {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
 
 .header-our-team {
 font-weight: 700;
@@ -258,14 +269,18 @@ margin-bottom: 72px;
 }
 
 .list-item-team {
- background-color: #FFFFFF;
+  background-color: #FFFFFF;
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4); 
 }
  
 .team-work {
+    border-radius: 0px 0px 4px 4px;
     padding-top: 32px;
     padding-bottom: 32px;
 }
 
+  
 .name-team {
 font-weight: 500;
 font-size: 20px;
@@ -273,9 +288,8 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 text-align: center;
 color:#2e2f42;
-padding-top: 32px;
-padding-bottom: 8px;
-margin-bottom: 72px
+text-align: center; 
+margin-bottom: 8px;
 }
 .team-specialty {
 font-size: 16px;
@@ -283,45 +297,47 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color:#434455;
-padding-bottom: 32px;
+text-align: center;
 }
 
 /* ================================================================================= */
 /* =====================PORTFOLIO=================================================== */
 
 .portfolio {
-    padding: 120px 0 120px 0;
+  padding: 120px 0 120px 0;
 }
 
 .header-portfolio {
-font-weight: 700;
-font-size: 36px;
-line-height: 1.11;
-letter-spacing: 0.02em;
-text-align: center;
-color:#2e2f42;
-text-transform: capitalize;
-margin-bottom: 72px; 
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color:#2e2f42;
+  text-transform: capitalize;
+  margin-bottom: 72px; 
 }
 
+
 .list-portfolio {
-display: flex;
-flex-wrap: wrap; 
-column-gap: 24px;
-row-gap: 48px;
+  display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px
 }
 
 .list-item-portfolio {
-width: calc((100% - 48px) / 6);
+  width: calc((100% - 48px) / 3);
 }
 
 
 .header-portfolio-list {
-font-weight: 500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color:#2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color:#2e2f42;
+  margin-bottom: 8px;
 }
 
 .portfolio-card {
@@ -330,10 +346,10 @@ color:#2e2f42;
     border-top: none;
 }
 .text-portfolio {
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color:#434455;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:#434455;
 }
 
 /* ================================================================================= */
