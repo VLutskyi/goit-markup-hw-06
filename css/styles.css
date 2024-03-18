@@ -437,13 +437,13 @@ ul, ol {
 }
 
 
-.footer-container-block{
+.footer-general-block{
   display: flex;
   align-items: baseline;
 }
 
 
-.footer-logo-containe{
+.footer-container-block{
   /* margin-left: 156px; */
   margin-right: 120px;
  }
@@ -464,6 +464,7 @@ ul, ol {
 
 
 .footer-caption {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -478,9 +479,15 @@ ul, ol {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #fff;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
 
+
+.footer-social-media{
+  display: flex;
+  align-items: baseline;
+}
 
 .footer-ul{
   display: flex;
@@ -488,14 +495,10 @@ ul, ol {
 
 }
 
-
-
-.footer-a{
-  width: 100%;
-  height: 100%;
-  background-color: #4d5ae5;
-
-} 
+.footer-inst{
+  width: 40px;
+  height: 40px;
+}
 
 
 .footer-svg {
