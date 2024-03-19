@@ -194,6 +194,7 @@ ul, ol {
   max-width: 1440px;
   background-repeat: no-repeat;
   background-position: center; 
+  margin: 0 auto;
 }
 
 
@@ -249,8 +250,7 @@ ul, ol {
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
 }
-
-
+ 
 
 .visually-hidden {
   position: absolute;
@@ -440,8 +440,6 @@ ul, ol {
 
 .footer-container-block{
   max-width: 264px;
-  /* align-items: baseline; */
-   margin-left: 156px;  
    margin-right: 120px; 
  }
 
