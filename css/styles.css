@@ -607,11 +607,11 @@ p {
 }
 
 
-.footer-emeil {
+.footer-email {
   padding-left: 80px;
 }
 
-.footer-emeil-header {
+.footer-email-header {
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -621,7 +621,7 @@ p {
 }
 
 
-.footer-emeil-form {
+.footer-email-form {
   display: flex;
   gap: 24px;
 }
@@ -662,8 +662,12 @@ cursor: pointer;
 background-color: #4D5AE5;
 border: none; 
 border-radius: 4px;
+}
 
 
+.footer-svg-subscribe {
+  margin-left: 16px;
+  fill: #fff;
 }
 
 /* ============================================================================== */
