@@ -57,7 +57,7 @@ p {
 }
 }
 
-@media screen and (min-width: 1158px){
+@media screen and (min-width: 1158px) {
 .container {
   max-width: 1158px;
   padding: 0, 15px;
@@ -317,9 +317,9 @@ margin-right: 76px;
 }
 
 
-/* .features-icons{
+.features-icons{
   display: none;
-} */
+}
 
 
 .section-features {
@@ -365,13 +365,13 @@ margin-right: 76px;
 
 
 @media screen and (min-width:768px) {
-
-
+  
 }
 
 
+
 @media screen and (min-width: 1158px) {
-  .features-icons{
+  .features-icons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -389,6 +389,7 @@ margin-right: 76px;
 
 .list-features {
   display: flex;
+}
 }
 /* ==================================================================== */
 /* =======================OUR TEAM===================================== */
